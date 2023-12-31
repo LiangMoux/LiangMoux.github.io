@@ -8,6 +8,8 @@ now1=new Date("2024/1/1")
 
 if(now>now1){  
     writeText()
+    document.body.style.background="url(img/bg2.gif)"  
+    document.body.style.backgroundSize="cover"  
 function writeText() {
     textEl.innerText = text.slice(0, idx)
     idx++
